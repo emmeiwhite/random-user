@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import "./App.css";
+
 import {
   FaEnvelopeOpen,
   FaUser,
@@ -8,6 +10,7 @@ import {
   FaLock,
   FaCreativeCommonsNcJp,
 } from "react-icons/fa";
+
 const url = "https://randomuser.me/api/";
 const defaultImage = "https://randomuser.me/api/portraits/men/75.jpg";
 function App() {
@@ -21,7 +24,7 @@ function App() {
         <img src={defaultImage} className="user-Image" />
         <p>My name is</p>
         <h3>Default Name</h3>
-        <div>
+        <div className="font-icons">
           <FaUser />
           <FaEnvelopeOpen />
           <FaCreativeCommonsNcJp />

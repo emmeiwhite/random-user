@@ -53,14 +53,14 @@
   margin: 2rem 0;
 }
 .font-icons svg {
-  color: #777;
+  color: rgb(185, 160, 160);
   font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
 .font-icons svg:hover {
-  color: #333;
+  color: rgb(1, 1, 138);
 }
 
 .btn-action {
@@ -75,6 +75,11 @@
   margin-bottom: 1rem;
 }
 
+.icon {
+  border: none;
+  outline: none;
+  background: transparent;
+}
 .btn-action:hover {
   background: rgb(1, 1, 138);
 }

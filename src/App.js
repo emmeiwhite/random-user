@@ -33,6 +33,8 @@ function App() {
           <FaPhone />
           <FaCalendarTimes />
         </div>
+
+        <button className="btn btn-action">RANDOM USER</button>
       </article>
     </main>
   );

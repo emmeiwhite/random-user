@@ -26,6 +26,7 @@
   position: relative;
   z-index: 1;
   text-align: center;
+  border-radius: 0.5rem;
 }
 
 .user-details::before {
@@ -33,6 +34,9 @@
   display: block;
   height: 100px;
   background: #777;
+  border-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .user-details img {
@@ -57,4 +61,20 @@
 
 .font-icons svg:hover {
   color: #333;
+}
+
+.btn-action {
+  padding: 0.5rem 1rem;
+  background: rgb(130, 130, 236);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+.btn-action:hover {
+  background: rgb(1, 1, 138);
 }
